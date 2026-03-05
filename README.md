@@ -1,39 +1,48 @@
-# vault-radiology
-Vault Radiology &amp; MRI is a Radiology/MRI-oriented medical resource designed to offer a modern, logical, and 100% UI experience.
+# vault-radiology — Vault Radiology & IRM (FiveM)
 
+Système **Radiologie / IRM** pour FiveM : impression de radios, rapports médicaux, vérification anti-fake (QR + token), traitements & rééducation (attelle / plâtre / béquille / chaise roulante).
 
-# VAULT STUDIO — FiveM Scripts
+> 📌 Ce dépôt contient **uniquement la documentation** (aucun code).  
+> 🛒 Téléchargement & mises à jour : https://vaultstudios.tebex.io/package/7270382  
+> 💬 Support : https://discord.gg/vaultstudio
 
-Modern, optimized FiveM resources built for easy integration.
-**Stack:** ESX / ox_lib / oxmysql / ox_inventory / ox_target
+---
 
-## 🔥 Products
-### Vault Radiology & IRM
-- ✅ Modern UI
-- ✅ Optimized (low resmon)
-- ✅ Easy install + configuration
-- ✅ Discord support
+## ✨ Features
+- UI moderne (NUI) + historique des dossiers
+- Impression **Radios** (items) + **Rapports médicaux**
+- Système **anti-fake** : code + token (QR)
+- Traitements : **attelle, plâtre, chaise roulante, ordonnance antidouleur, arrêt de travail**
+- Rééducation (mouvements limités, béquille/chaise roulante) via **statebags**
+- Permissions par **job + grade**
+- **Archive stash** (ox_inventory) optionnel
 
-🎥 Showcase: (lien vidéo)
-🛒 Tebex: (lien produit tebex)
-📩 Support: (lien discord)
+---
 
-## 📦 What you get
-- Installation guide
-- Config examples
-- Changelog updates
-- Support on Discord
+## ✅ Compatibilité
+### Framework (auto-detect)
+- ESX (`es_extended`)
+- QBCore (`qb-core`) / Qbox (`qbx_core`)
+- ND / vRP (partiel)
+- Standalone (partiel)
 
-## 🛠️ Installation
-This repository contains **documentation only** (no code).
-For download & updates, use Tebex: (lien tebex)
+### Inventaire (auto-detect)
+- ox_inventory ✅ (recommandé)
+- qb-inventory / qs-inventory / etc (selon serveur)
+
+### Target (obligatoire pour ouvrir le panel)
+- ox_target ✅ ou qb-target / qtarget
+
+---
 
 ## 📚 Documentation
-- [Install](docs/INSTALL.md)
+- [Installation](docs/INSTALL.md)
 - [Configuration](docs/CONFIG.md)
 - [FAQ](docs/FAQ.md)
 - [Changelog](docs/CHANGELOG.md)
 
-## 🔗 Links
-- Tebex Store: (https://vaultstudios.tebex.io/package/7270382)
-- Discord: (https://discord.gg/vaultstudio)
+---
+
+## 🔗 Liens
+- Tebex : https://vaultstudios.tebex.io/package/7270382
+- Discord : https://discord.gg/vaultstudio
