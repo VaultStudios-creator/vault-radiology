@@ -1,5 +1,7 @@
 # vault-radiology — Vault Radiology & IRM (FiveM)
 
+Aucun SQL à importer : les tables se créent automatiquement au démarrage.
+
 Système **Radiologie / IRM** pour FiveM : impression de radios, rapports médicaux, vérification anti-fake (QR + token), traitements & rééducation (attelle / plâtre / béquille / chaise roulante).
 
 > 📌 Ce dépôt contient **uniquement la documentation** (aucun code).  
