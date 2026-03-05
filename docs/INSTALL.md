@@ -3,7 +3,6 @@
 ## Requirements
 - ox_lib
 - oxmysql
-- (autres si besoin)
 
 ## Steps
 1) Download the resource from Tebex
