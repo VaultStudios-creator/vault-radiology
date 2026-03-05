@@ -36,4 +36,4 @@ For download & updates, use Tebex: (lien tebex)
 
 ## 🔗 Links
 - Tebex Store: (https://vaultstudios.tebex.io/package/7270382)
-- Discord: (lien discord)
+- Discord: (https://discord.gg/vaultstudio)
