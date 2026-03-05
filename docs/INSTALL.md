@@ -1,16 +1,33 @@
-# Installation
+# Installation — vault-radiology
 
-## Requirements
-- ox_lib
-- oxmysql
+## 1) Prérequis
+✅ Obligatoire
+- **ox_lib**
+- **oxmysql**
+- Un système de target :
+  - **ox_target** (recommandé) ou **qb-target / qtarget**
 
-## Steps
-1) Download the resource from Tebex
-2) Place it in `resources/`
-3) Add to `server.cfg`:
-   - `ensure ox_lib`
-   - `ensure (resource_name)`
+✅ Recommandé
+- **ox_inventory** (pour l’archive stash + items via exports)
 
-## First run
-- Start the server
-- Check console for any missing dependencies
+⚠️ Important
+- La ressource utilise des **statebags** (rééducation). Assure-toi d’avoir **OneSync** activé (standard sur la plupart des serveurs modernes).
+
+---
+
+## 2) Installation de la ressource
+1. Mets le dossier **vault-radiology** dans ton `resources/`
+2. Ajoute dans `server.cfg` (ordre conseillé) :
+
+```cfg
+ensure oxmysql
+ensure ox_lib
+
+# target (au choix)
+ensure ox_target
+# ou ensure qb-target / ensure qtarget
+
+# inventaire (si utilisé)
+ensure ox_inventory
+
+ensure vault-radiology
